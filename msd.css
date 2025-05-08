@@ -1,0 +1,9 @@
+body {
+    /* background-image: url(./task1/61oi5mS720L.jpg);*/
+    background-position: 100%;
+    background-size: 100%;
+    background-color: black;
+    background-blend-mode: lighten;
+    background-repeat: no-repeat;
+    color: white;
+}

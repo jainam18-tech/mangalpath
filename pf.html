@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jainam MitalBhai Parikh</title>
+    <link rel="stylesheet" href="pf.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="task1\gradient-coding-logo-template_23-2148809439.avif">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">JainamParikh</div>
+            <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hero">
+            <img src="task1\cf4b07dd-e118-4a0b-a24b-0e3ddf214860.jfif
+            " alt="Jainam Parikh" class="profile-img">
+            <h1>Hi, I'm Jainam Parikh</h1>
+            <p>Transforming Ideas into scalable Digital Solutions</p>
+            <a href="#projects" class="btn">View Projects</a>
+            <a href="task1\Jainam_Parikh_Resume copy.pdf.pdf" download class="btn resume-btn">Download Resume</a>
+        </div>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p style="font-size: larger;">I’m an Enthusiastic and self-motivated Full Stack Developer with a solid understanding of web development fundamentals and a keen interest in data analysis. Skilled in HTML, CSS, JavaScript, PHP, and MySQL, with strong logic-building abilities
+            and a passion for solving real-world problems through code. Eager to contribute, learn, and grow in a dynamic development environment.</p>
+    </section>
+    <section id="skills">
+        <h2>My Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <img src="task1\frontend.jpg" alt="Frontend Icon">
+                <h3>Frontend Development</h3>
+                <p>HTML, CSS, Bootstrap</p>
+            </div>
+            <div class="skill-card">
+                <img src="task1\backend.webp" alt="Backend Icon">
+                <h3>Backend Development</h3>
+                <p> Node.js, MySQL ,python</p>
+            </div>
+            <div class="skill-card">
+                <img src="task1\data.png" alt="Data Science Icon">
+                <h3>Data Science & Analysis</h3>
+                <p>Python, Pandas, NumPy, Matplotlib</p>
+            </div>
+            <div class="skill-card">
+                <img src="task1\tools.jpg" alt="Tools Icon">
+                <h3>Tools & Platforms</h3>
+                <p> GitHub, VS Code</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="project-container">
+            <div class="project-card">
+                <img src="task1\Screenshot_4-5-2025_13454_.jpeg" alt="Portfolio Website">
+                <h3>Portfolio Website</h3>
+                <p>Personal portfolio built using HTML and CSS showcasing skills, projects, and contact info.</p>
+            </div>
+            <div class="project-card">
+                <img src="task1\Screenshot_4-5-2025_2325_.jpeg" alt="Fan Page">
+                <h3>Fan Page</h3>
+                <p>HTML/CSS-based fan page with bio, gallery, and responsive design dedicated to a public figure.</p>
+            </div>
+            <div class="project-card">
+                <img src="task1\a8ee79bd-10e5-495f-a1e5-be556b3b5433.jfif" alt="Sales Analysis Dashboard">
+                <h3>Sales Analysis Dashboard</h3>
+                <p>Python based an sales analysis project using superstore dataset.Using framewroks like numpy,pandas & matplotlib.Using power BI for data visulization and analysis.</p>
+            </div>
+            <div class="project-card">
+                <img src="" alt="Technishal Website">
+                <h3>Technishal Website</h3>
+                <p>Responsive company website built with HTML and CSS highlighting services and contact details.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required />
+            <input type="email" placeholder="Your Email" required />
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Jainam parikh |All rights reserved.Crafted with passionand clean mode.</p>
+    </footer>
+
+
+    <button id="toggle-dark">Toggle Dark Mode</button>
+
+    <script>
+        const toggle = document.getElementById('menu-toggle');
+        const nav = document.getElementById('nav-links');
+        toggle.addEventListener('click', () => {
+            nav.classList.toggle('active');
+        });
+
+        const darkBtn = document.getElementById('toggle-dark');
+        darkBtn.addEventListener('click', () => {
+            document.body.classList.toggle('dark-mode');
+        });
+    </script>
+</body>
+
+</html>
