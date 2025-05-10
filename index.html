@@ -3,336 +3,92 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Mangalpath Engineering Consultant LLP</title>
-    <link rel="icon" type="image/x-icon" href="task1\8dafc3cf-3e08-47f1-90e7-6ef516012827.jfif">
-    <style>
-        .background {
-            background-image: url(./task1/9ce72b99-15b2-40b9-87f4-fd60ffe80123.jfif);
-            background-repeat: no-repeat;
-            background-position: center;
-            background-attachment: fixed;
-            width: 100%;
-            height: 100%;
-            background-size: contain;
-            background-blend-mode: lighten;
-            background-color: wheat;
-        }
-        
-        .position {
-            position: fixed;
-            width: 100%;
-        }
-        
-        .header-top {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 10px 30px;
-            background-color: black;
-            font-size: 14px;
-            background-size: contain;
-            height: 120px;
-            margin-left: 150px;
-        }
-        
-        .logo {
-            font-size: 22px;
-            font-weight: bold;
-            color: #003366;
-            margin-left: 50px;
-        }
-        
-        .logo span {
-            color: #666;
-            font-weight: normal;
-            border-radius: 50%;
-        }
-        
-        .info {
-            display: flex;
-            gap: 30px;
-        }
-        
-        .info-item {
-            display: flex;
-            align-items: center;
-            gap: 5px;
-            color: white;
-            padding: 20px;
-        }
-        
-        .info-item i {
-            color: white;
-        }
-        
-        .social-icons {
-            display: flex;
-            gap: 10px;
-        }
-        
-        .social-icons a {
-            color: black;
-            text-decoration: none;
-        }
-        
-        .nav-bar {
-            display: flex;
-            justify-content: center;
-            background-color: white;
-            border-top: 1px solid #ddd;
-            border-bottom: 1px solid #ddd;
-        }
-        
-        .nav-bar a {
-            padding: 15px 20px;
-            text-decoration: none;
-            color: #003366;
-            font-weight: 500;
-        }
-        
-        .nav-bar a:hover,
-        .nav-bar a.active {
-            color: black;
-        }
-        /* Top horizontal bar */
-        
-        .top-bar {
-            height: 60px;
-            background-color: #2c3e50;
-            color: white;
-            padding: 1rem;
-            position: fixed;
-            top: 0;
-            left: 0;
-            right: 0;
-            z-index: 1000;
-        }
-        /* Layout container */
-        
-        .layout {
-            display: flex;
-            margin-top: 60px;
-            /* height of top bar */
-        }
-        /* Vertical side nav */
-        
-        .side-nav {
-            width: 200px;
-            background-color: #d77720;
-            height: calc(100vh - 10px);
-            padding-top: 1rem;
-            position: fixed;
-            top: 0px;
-            left: 0;
-            display: flex;
-            flex-direction: column;
-        }
-        
-        .side-nav a {
-            color: white;
-            padding: 1rem;
-            text-decoration: none;
-        }
-        
-        .side-nav a:hover {
-            background-color: #3c5c75;
-        }
-        
-        * {
-            margin: 0%;
-            font-family: Arial, Helvetica, sans-serif;
-        }
-        
-        footer {
-            background: black;
-            color: white;
-            text-align: center;
-            padding: 20px 0;
-            margin-top: 40px;
-            margin-left: 200px;
-        }
-        
-        section {
-            margin-left: 205px;
-        }
-        
-        #about {
-            margin-top: 200px;
-            border: 1px solid #d77720;
-            border-radius: 10px;
-            height: 100px;
-        }
-        
-        #services {
-            margin-top: 200px;
-            border: 1px solid #d77720;
-            border-radius: 10px;
-            height: 200px;
-        }
-        
-        #team {
-            margin-top: 200px;
-            border: 1px solid #d77720;
-            border-radius: 10px;
-            height: 500px;
-        }
-        
-        #clients {
-            margin-top: 200px;
-            border: 1px solid #d77720;
-            border-radius: 10px;
-            height: 400px;
-        }
-        
-        #contact {
-            margin-top: 200px;
-            border: 1px solid #d77720;
-            border-radius: 10px;
-            height: 300px;
-        }
-        
-        #home {
-            border: 1px solid #d77720;
-            border-radius: 10px;
-            height: 700px;
-        }
-        
-        form {
-            max-width: 500px;
-            margin: auto;
-            display: flex;
-            flex-direction: column;
-        }
-        
-        form input,
-        form textarea {
-            margin-bottom: 15px;
-            padding: 12px;
-            border-radius: 5px;
-            border: 1px solid #ccc;
-        }
-        
-        form button {
-            padding: 12px;
-            background: #d77720;
-            color: black;
-            border: none;
-            border-radius: 5px;
-            transition: background 0.3s;
-            cursor: pointer;
-        }
-        
-        form button:hover {
-            background: #3c5c75;
-        }
-        
-        .logo-container {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 20px;
-            padding: 20px;
-        }
-        
-        .logo-container a img {
-            width: 150px;
-            /* Adjust size as needed */
-            height: auto;
-            transition: transform 0.3s;
-        }
-        
-        .logo-container a:hover img {
-            transform: scale(1.1);
-        }
-    </style>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mangalpath Engineering Consultants LLP</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="index.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="task1\9ce72b99-15b2-40b9-87f4-fd60ffe80123.jfif">
 </head>
 
 <body>
-    <div class="position">
 
-        <div class="header-top">
-
-            <img src="task1\32f5c161-b62b-4cd0-bdaa-b0592fed1a68.jfif" height="100" width="1600">
-        </div>
-
-        <div class="nav-bar">
-            <nav class="side-nav"><br>
-                <div class="logo">
-                    <img src="task1\8dafc3cf-3e08-47f1-90e7-6ef516012827.jfif" height="100" width="100" style="border-radius: 20%;">
-                </div><br>
-                <a href="#home">Home</a>
-                <a href="#about">About Us</a>
-                <a href="#services">Our Services</a>
-                <a href="#team">Our Team</a>
-                <a href="#clients">Clients</a>
-                <a href="#contact">Contact</a>
-            </nav>
-
-        </div>
-    </div>
-    <div class="background">
-        <section id="home">
-            <img src="task1\b59780f8-0b07-4ed9-b2ef-5f9aeac65bfa.jfif" style=" margin-top:200px;width:1000px; height: 350px;;"><br>
-            <span style="color: #d77720;"><strong>Aim:</strong></span><br>
-            <p style="font-family:'Times New Roman', Times, serif;">Mangalpath Engineering Consultant LLP is a highly professional organization oriented to highway designing and structure designing. We have a fully dedicated team working towards achieving goals, set to uplift the aim of the organization with
-                a good industrial practise.</p><br>
-            <span style="color: #d77720;"><strong>About MEC:</strong></span><br>
-            <p style="font-family:'Times New Roman', Times, serif;">The aim of Mangalpath Engineering Consultant LLP is to provide good services to our valuable customers with quality product and timely completion of allotted assignments. It also deals with preparedness to meet the anticipated challenges of
-                industry with state-of-art technology</p>
-        </section>
-        <section id="about">
-            <h2>About Us:</h2>
-            <p style="font-size: larger; color:white;background-color:#d77720; font-family:'Times New Roman', Times, serif;"><strong>Mangalpath Engineering Consultant LLP is a highly
-            professional organization oriented to highway
-            designing and structure designing. We have a fully
-            dedicated team working towards achieving goals,
-            set to uplift the aim of the organization with a good
-            industrial practise.</strong></p>
-        </section>
-
-        <section id="services">
-            <h2>Our Services:</h2>
-            <p>
-                <ul>
-                    <li style="font-family:'Times New Roman', Times, serif;">Highway geometric design.</li>
-                    <li style="font-family:'Times New Roman', Times, serif;">Highway Structure design.</li>
-                    <li style="font-family:'Times New Roman', Times, serif;">Road Safety audit.</li>
-                    <li style="font-family:'Times New Roman', Times, serif;">Traffic Analysis.</li>
-                    <li style="font-family:'Times New Roman', Times, serif;">Pavement design & Pre-bidding works.</li>
-                    <li style="font-family:'Times New Roman', Times, serif;">Hydraulic analysis for Highways & Industrial plots & Town.</li>
-                    <li style="font-family:'Times New Roman', Times, serif;">Preparation of Preliminary Estimate,BQQ and Draft Tender Paper.</li>
-                    <li style="font-family:'Times New Roman', Times, serif;">Structure Design(RCC/STEEL).</li>
-                    <li style="font-family:'Times New Roman', Times, serif;">Architecture planning & Design.</li>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">MEC LLP</a>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#clients">Clients</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://github.com/your-username/your-repo" target="_blank">GitHub</a></li>
                 </ul>
-            </p>
-        </section>
-
-        <section id="team">
-            <h2>Our Team:</h2><br>
-            <img src="task1\de8de070-b273-4fc4-b356-f48b91788808.jfif" height="200" width="200">
-            <div style="margin-top: -200px;margin-left:205px;"> <span style="margin-top :100px;color:#d77720"><strong>Karan A. Trivedi</strong></span><br>
-                <p style="margin-left: 0px;font-family:'Times New Roman', Times, serif;">B.Tech,Civil Engineering(2016)</p><br>
-                <br>
-                <span style="margin-left: 0px;"><b>Director</b></span><br>
-                <br>
-                <p style="margin-left: px;font-family:'Times New Roman', Times, serif;">Expertise in Highway geometrics of all kind of highway configuration abided by IRC provisions,Economic analysis,Value engineering & Detailed engineering design.</p>
             </div>
-            <div style="margin-top: 100px;">
-                <img src="task1\c5854a07-6b5b-4d94-b245-48f1a58e516c.jfif" height="200" width="200">
-                <div style="margin-top: -200px;margin-left:205px"> <span style="margin-top: 2000px;color:#d77720"><strong>Mayank D. Sanghani</strong></span><br>
-                    <p style="margin-left:0px;font-family:'Times New Roman', Times, serif;">B.Tech,Civil Engineering(2016)</p><br>
-                    <p style="margin-left:0px;font-family:'Times New Roman', Times, serif;">M.Tech Transportation(2018)</p>
-                    <br>
-                    <span style="margin-left: 0px;"><b>Director</b></span><br>
-                    <br>
-                    <p style="margin-left:0px;font-family:'Times New Roman', Times, serif;">Undertaken resposibilities in major thrust areas of Highway Pavement Design,traffic engineering,Road asset management system and Road safety audit.</p>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero text-white text-center d-flex align-items-center">
+        <div class="container">
+            <h1 class="display-4 animate__animated animate__fadeInDown" style="color: black;">Mangalpath Engineering Consultants LLP</h1>
+            <p class="lead animate__animated animate__fadeInUp" style="color: black;">Experts in Highway & Structure Design</p>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">About Us</h2>
+            <p class="lead text-center">Mangalpath Engineering Consultant LLP is a highly professional organization focused on highway and structure design. Our dedicated team aims to provide high-quality services and meet the challenges of the industry with state-of-the-art technology.</p>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Our Services</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4 animate__animated animate__fadeInLeft">
+                    <h5>Highway Geometric & Structure Design</h5>
+                    <p>We design horizontal & vertical alignment, intersections, drainage, and safety elements.</p>
+                </div>
+                <div class="col-md-4 mb-4 animate__animated animate__fadeInUp">
+                    <h5>Traffic Analysis & Road Safety Audit</h5>
+                    <p>Our team conducts surveys, audits, and forecasts to ensure optimal road safety and performance.</p>
+                </div>
+                <div class="col-md-4 mb-4 animate__animated animate__fadeInRight">
+                    <h5>Pavement & Hydraulic Design</h5>
+                    <p>Flexible & rigid pavement design, overlays, BOQ prep, and hydraulic analysis for all types of projects.</p>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <section id="clients">
-            <h2>Our Client:</h2><br>
+    <!-- Team Section -->
+    <section id="team" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Our Team</h2>
+            <div class="row">
+                <div class="col-md-6 text-center animate__animated animate__zoomIn">
+                    <img src="task1\de8de070-b273-4fc4-b356-f48b91788808.jfif" height="200px" width="200px">
+                    <h5>Karan A. Trivedi</h5>
+                    <p><b>Director</b><br>B.Tech Civil Engineering (2016)<br>Expert in Highway Geometrics & Safety Audits</p>
+                </div>
+                <div class="col-md-6 text-center animate__animated animate__zoomIn">
+                    <img src="task1\c5854a07-6b5b-4d94-b245-48f1a58e516c.jfif" height="200px" width="200px">
+                    <h5>Mayank D. Sanghani</h5>
+                    <p><b>Director</b><br>B.Tech Civil Engineering (2016)<br>M.Tech Transportation (2018)<br>Expertise in Pavement Design & Traffic Engineering</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Clients Section -->
+    <section id="clients" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Our Clients</h2>
             <div class="logo-container">
                 <a href="http://morth.nic.in/"><img src="task1\morth-goi.png" alt="MORTH"></a>
                 <a href="https://rnb.gujarat.gov.in/"><img src="task1\images.png" alt="Road & Buildings Dept"></a>
@@ -346,41 +102,148 @@
             </div>
 
 
-        </section>
-        <section id="contact">
-            <h2>Inquiry:</h2><br>
-            <form>
-                <input type="text" placeholder="Your Name" required />
-                <input type="email" placeholder="Your Email" required />
-                <textarea placeholder="Your Message" required></textarea>
-                <button type="submit">Submit</button>
-            </form>
+        </div>
+    </section>
 
-        </section>
+    <!-- Projects Section -->
+    <section id="projects" class="py-5 bg-white">
+        <div class="container">
+            <h2 class="text-center mb-4 text-dark">Projects & Accomplishments</h2>
+            <div class="accordion" id="projectsAccordion">
 
-    </div>
-
-    <footer>
-        <div class="info">
-            <div class="info-item">
-                <p><i class="fas fa-map-marker-alt"></i>
-                    <span><strong>Location:</strong><br>B/411 Fairdeal House,Near Swastik Cross Road,C.G Road, Ahmedabad-380009</span></p>
-            </div>
-            <div class="info-item">
-                <p><i class="fas fa-phone-alt"></i>
-                    <span><strong>Call Us:</strong><br>+91-9979617017 -Mayank Sanghani<br>+91-7698443268 -Karan Trivedi</span></p>
-            </div>
-            <div class="info-item">
-                <span>Follow us:</span>
-                <div class="social-icons">
-
-                    <a href="https://in.linkedin.com/in/karan-trivedi-b08306147"><i class="fab fa-linkedin-in"></i></a>
+                <!-- Gujarat Projects -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingGujarat">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseGujarat">
+                        Gujarat Projects
+                    </button>
+                    </h2>
+                    <div id="collapseGujarat" class="accordion-collapse collapse show">
+                        <div class="accordion-body">
+                            <ul>
+                                <li>
+                                    <strong>Project:</strong> Widening and strengthening of Naroda – Dehgam – Dhansura Road (Km 61+000 to 73+200)<br>
+                                    <strong>Client:</strong> R&B Sabarkatha District<br>
+                                    <strong>Length:</strong> 12.2 Km
+                                </li>
+                                <li>
+                                    <strong>Project:</strong> Strengthening & Widening of Bagodra - Dhandhuka - Barwala - Vallabhipur Road<br>
+                                    <strong>Client:</strong> R&B Ahmedabad District<br>
+                                    <strong>Length:</strong> 25.6 Km
+                                </li>
+                                <li>
+                                    <strong>Project:</strong> Design of Horizontal and Vertical Alignment of Highways, Drainage, Pavement Quantities & Road Safety Audit<br>
+                                    <strong>Client:</strong> Multiple Clients<br>
+                                    <strong>Details:</strong> Roadside furniture, road marking, junction design, and traffic safety audits.
+                                </li>
+                                <!-- Add more Gujarat projects here similarly -->
+                            </ul>
+                        </div>
+                    </div>
                 </div>
+
+                <!-- Bihar Projects -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingBihar">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseBihar">
+                        Bihar Projects
+                    </button>
+                    </h2>
+                    <div id="collapseBihar" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            <ul>
+                                <li>
+                                    <strong>Project:</strong> Road Safety Audit of Goradih-Sanhaulla Road (0+000 to 18+609)<br>
+                                    <strong>Client:</strong> R&B Bihar<br>
+                                    <strong>Length:</strong> 18.609 Km
+                                </li>
+                                <li>
+                                    <strong>Project:</strong> Audit of Shivnarayanpur to Nandlalpur Road<br>
+                                    <strong>Client:</strong> R&B Bihar<br>
+                                    <strong>Length:</strong> 8.461 Km
+                                </li>
+                                <li>
+                                    <strong>Project:</strong> Road Safety Audit Reports covering multiple MDR & SH roads in Aurangabad & Nawada Districts<br>
+                                    <strong>Client:</strong> R&B Bihar<br>
+                                    <strong>Total Length:</strong> 68 Km & 196 Km
+                                </li>
+                                <!-- Add more Bihar projects here similarly -->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- National Highway & Airport Projects -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingNH">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNH">
+                        National Highway & Airport Projects
+                    </button>
+                    </h2>
+                    <div id="collapseNH" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            <ul>
+                                <li>
+                                    <strong>Project:</strong> Chenani Sudhmahadev Section (NH-244), J&K<br>
+                                    <strong>Client:</strong> R&B J&K<br>
+                                    <strong>Length:</strong> 16.99 Km
+                                </li>
+                                <li>
+                                    <strong>Project:</strong> Concert Arena ("The Hangar"), Kempagowda International Airport, Bengaluru<br>
+                                    <strong>Client:</strong> MCWAY Managements<br>
+                                    <strong>Scope:</strong> Building & Structural Design
+                                </li>
+                                <li>
+                                    <strong>Project:</strong> NH927D Periodical Renewal (Km 4/700 to 48/850)<br>
+                                    <strong>Client:</strong> NH Division Rajkot<br>
+                                    <strong>Length:</strong> 44.15 Km
+                                </li>
+                                <!-- Add more National Highway/Airport projects here -->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Other Projects -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingInfra">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseInfra">
+                        Other Infrastructure & Urban Projects
+                    </button>
+                    </h2>
+                    <div id="collapseInfra" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            <ul>
+                                <li>
+                                    <strong>Project:</strong> Construction of Animal Husbandry Facilities (Dhari, Khambha, Kunkavav, Babra, Liliya)<br>
+                                    <strong>Client:</strong> R&B Panchayat Amreli<br>
+                                    <strong>Budget:</strong> ₹43 Lacs each
+                                </li>
+                                <li>
+                                    <strong>Project:</strong> Aanganwadi Construction at Chital (Code No. 13)<br>
+                                    <strong>Client:</strong> R&B Panchayat Amreli<br>
+                                    <strong>Budget:</strong> ₹5 Lacs
+                                </li>
+                                <li>
+                                    <strong>Project:</strong> Design of Storm Water Drain and Hydraulic Analysis<br>
+                                    <strong>Client:</strong> Multiple Industrial & Urban Plots
+                                </li>
+                                <!-- Add more infrastructure/urban projects -->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
+    </section>
 
-        <p>Mangalpath Engineering Consultant LLP |Copyright &copy; 2025.All rights reserved</p>
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2025 Mangalpath Engineering Consultants LLP | <a href="https://github.com/your-username/your-repo" target="_blank" class="text-white">GitHub</a></p>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
